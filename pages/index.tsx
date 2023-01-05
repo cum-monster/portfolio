@@ -119,7 +119,7 @@ export default function Home() {
         </p>
 
         <div className=" max-w-[80%] mr-[10%] mx-auto grid items-center w-full grid-cols-1 gap-4 mt-6 mb-4 md:grid-cols-3">
-          <div className="w-full p-8 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800/50 hover:bg-neutral-700/50 hover:text-gray-300">
+          <a target="_blank" rel="noreferrer" href="https://nitronodes.xyz" className="w-full p-8 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800/50 hover:bg-neutral-700/50 hover:text-gray-300">
             <div className="mt-8 flex justify-center items-center h-[26px]">
               <Image
                 alt="NitroNodes"
@@ -135,8 +135,8 @@ export default function Home() {
             <p className="mt-2 mr-2 font-semibold text-center text-md">
               Freemium 24/7 hosting service
             </p>
-          </div>
-          <div className="w-full p-8 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800/50 hover:bg-neutral-700/50 hover:text-gray-300">
+          </a>
+          <a target="_blank" rel="noreferrer" href="https://heyhosting.pl" className="w-full p-8 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800/50 hover:bg-neutral-700/50 hover:text-gray-300">
             <div className="mt-8 flex justify-center items-center h-[26px]">
               <Image
                 alt="HeyHosting"
@@ -152,7 +152,7 @@ export default function Home() {
             <p className="mt-2 mr-2 font-semibold text-center text-md">
               Paid polish server hosting
             </p>
-          </div>
+          </a>
           <div className="w-full p-8 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800/50 hover:bg-neutral-700/50 hover:text-gray-300">
             <div className="mt-8 flex justify-center items-center h-[26px]">
               <Image
