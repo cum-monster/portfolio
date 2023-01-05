@@ -6,13 +6,13 @@ export default function error404() {
         <>
 
             <section
-                className="flex items-center h-full p-16 mt-28 dark:bg-neutral-900 dark:text-neutral-100"
+                className="flex items-center p-16 mt-28 dark:bg-neutral-900 dark:text-neutral-100"
             >
                 <div
                     className="container flex flex-col items-center justify-center px-5 mx-auto my-8"
                 >
                     <div className="max-w-md text-center">
-                        <h2 className="mb-8 font-extrabold bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600 text-9xl">404</h2>
+                        <h2 className="mb-8 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600 text-9xl">404</h2>
                         <p className="text-2xl font-semibold md:text-3xl">
                             Sorry, this page does not exist
                         </p>
@@ -25,7 +25,10 @@ export default function error404() {
 
                     </div>
                 </div>
+                
             </section>
+            <br /> <br />
+            <br />
         </>
     )
 }
