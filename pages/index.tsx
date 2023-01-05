@@ -112,7 +112,7 @@ export default function Home() {
       </div>
       <div className="mt-12">
         <p className="inline-flex ml-12 mr-4 text-2xl font-extrabold md:text-center">
-          Things that i &nbsp;
+          Things that i&nbsp;
           <span className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">
             worked on
           </span>
@@ -172,7 +172,7 @@ export default function Home() {
           </div>
         </div>
         <p className="inline-flex ml-12 mr-4 text-2xl font-extrabold md:text-center">
-          Contact &nbsp;
+          Contact&nbsp;
           <span className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">
           me
           </span>
