@@ -16,7 +16,7 @@ export default function Home() {
         </div> 
       </div>
       <div className="mt-12">
-        <p className="inline-flex ml-12 mr-4 text-2xl font-extrabold md:text-center">
+        <p className="inline-flex ml-12 mr-4 text-2xl font-extrabold text-center">
           My&nbsp;
           <p className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">
             skills
@@ -111,7 +111,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mt-12">
-        <p className="inline-flex ml-12 mr-4 text-2xl font-extrabold md:text-center">
+        <p className="inline-flex ml-12 mr-4 text-2xl font-extrabold text-center">
           Things that i&nbsp;
           <span className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">
             worked on
@@ -171,7 +171,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <p className="inline-flex ml-12 mr-4 text-2xl font-extrabold md:text-center">
+        <p className="inline-flex m-auto text-2xl font-extrabold text-center">
           Contact&nbsp;
           <span className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">
           me
@@ -179,9 +179,9 @@ export default function Home() {
         </p>
         <div className="max-w-[80%] mr-[10%] mx-auto mt-12">
           <div className="w-full p-8 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800/50 hover:text-gray-300">
-            <p className="inline-flex ml-12 mr-4 text-lg">Discord:&nbsp;<span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">OlekAleksander#5599</span></p>
-            <p className="inline-flex ml-12 mr-4 text-lg">E-Mail:&nbsp;<span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">OlekAleksander@protonmail.com</span></p>
-            <p className="inline-flex ml-12 mr-4 text-lg">Telegram:&nbsp;<span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">@OlekAleksander</span></p>
+            <p className="inline-flex mr-4 text-lg ml-2 md:ml-12">Discord:&nbsp;<span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">OlekAleksander#5599</span></p>
+            <p className="inline-flex mr-4 text-lg ml-2 md:ml-12">E-Mail:&nbsp;<span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">OlekAleksander@protonmail.com</span></p>
+            <p className="inline-flex mr-4 text-lg ml-2 md:ml-12">Telegram:&nbsp;<span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">@OlekAleksander</span></p>
           </div>
         </div>
       </div>
