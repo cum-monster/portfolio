@@ -37,14 +37,20 @@ export default function NavBar() {
                         <nav className="hidden space-x-10 md:flex">
                             <Link
                                 href="/"
-                                className="text-base font-medium text-white duration-300 hover:text-primary-500"
+                                className="text-base font-medium text-white duration-300 bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600 hover:text-transparent"
                             >
                                 Home
                             </Link>
                             <Link
+                                href="/blog/posts"
+                                className="text-base font-medium text-white duration-300 bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600 hover:text-transparent"
+                            >
+                                Blog
+                            </Link>
+                            <Link
                                 href="https://github.com/OlekAleksander"
                                 target="_blank"
-                                className="text-base font-medium text-white duration-300 hover:text-primary-500"
+                                className="text-base font-medium text-white duration-300 bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600 hover:text-transparent"
                             >
                                 Github
                             </Link>
@@ -73,7 +79,7 @@ export default function NavBar() {
                                             onClick={() => {
                                                 setMobileMenuOpen(false)
                                             }}
-                                            className="inline-flex items-center justify-center p-2 bg-transparent rounded-md text-neutral-400 hover:text-neutral-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500"
+                                            className="inline-flex items-center justify-center p-2 bg-transparent rounded-md text-neutral-400 hover:text-neutral-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500"
                                         >
                                             <span className="sr-only">Close menu</span>
                                             <X className="text-neutral-200 " />
@@ -106,6 +112,17 @@ export default function NavBar() {
                                             >
                                                 <span className="ml-3 text-base font-medium text-white">Github</span>
                                             </Link>
+                                        </div>
+                                        <div className="flex items-center p-3 -m-3 rounded-md hover:bg-neutral-700">
+                                        <Link
+                                            onClick={() => {
+                                                setMobileMenuOpen(false)
+                                            }}
+                                            href="/blog/posts"
+                                            className="w-full h-full"
+                                        >
+                                            <span className="ml-3 text-base font-medium text-white">Blog</span>
+                                        </Link>
                                         </div>
 
 

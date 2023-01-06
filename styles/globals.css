@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  @apply bg-neutral-900;
+}
+
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
@@ -46,3 +50,4 @@
 .nprogress-custom-parent #nprogress .bar {
   position: absolute;
 }
+

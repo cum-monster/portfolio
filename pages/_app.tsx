@@ -39,7 +39,7 @@ export default function App({ Component, pageProps }: AppProps) {
     NProgress.done(false)
   });
 
-  return <div className="text-white bg-neutral-900">
+  return <div className="text-white">
     <TransitionLayout>
    <Component {...pageProps} /> 
    <Footer />
