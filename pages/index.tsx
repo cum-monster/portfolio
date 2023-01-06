@@ -1,9 +1,15 @@
+import { NextSeo } from "next-seo";
 import Image from "next/image";
 import { Code, Mail } from "react-feather";
 
 export default function Home() {
   return (
     <>
+      <NextSeo
+        title="OlekAleksander.pl - Home"
+        description="Im a fullstack programmer from Poland. I build fullstack apps using
+        nextjs and react with tailwind. I also like to design stuff."
+      />
       <div className="px-3 py-6 mx-auto mt-12 text-center">
         <div>
           <h1 className="text-5xl font-extrabold text-transparent sm:text-7xl md:text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">
@@ -171,7 +177,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <p className="inline-flex m-auto text-2xl ml-12 font-extrabold text-center">
+        <p className="inline-flex m-auto ml-12 text-2xl font-extrabold text-center">
           Contact&nbsp;
           <span className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">
           me
@@ -179,9 +185,9 @@ export default function Home() {
         </p>
         <div className="max-w-[80%] mr-[10%] mx-auto mt-12">
           <div className="w-full p-8 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800/50 hover:text-gray-300">
-            <p className="inline-flex mr-4 text-lg ml-2 md:ml-12">Discord:&nbsp;<span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">OlekAleksander#5599</span></p><br></br>
-            <p className="inline-flex mr-4 text-lg ml-2 md:ml-12">E-Mail:&nbsp;<span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">OlekAleksander@protonmail.com</span></p><br></br>
-            <p className="inline-flex mr-4 text-lg ml-2 md:ml-12">Telegram:&nbsp;<span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">@OlekAleksander</span></p><br></br>
+            <p className="inline-flex ml-2 mr-4 text-lg md:ml-12">Discord:&nbsp;<span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">OlekAleksander#5599</span></p><br></br>
+            <p className="inline-flex ml-2 mr-4 text-lg md:ml-12">E-Mail:&nbsp;<span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">OlekAleksander@protonmail.com</span></p><br></br>
+            <p className="inline-flex ml-2 mr-4 text-lg md:ml-12">Telegram:&nbsp;<span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">@OlekAleksander</span></p><br></br>
           </div>
         </div>
       </div>

@@ -1,10 +1,11 @@
+import { NextSeo } from "next-seo";
 
 
 export default function error404() {
 
     return (
         <>
-
+            <NextSeo noindex={true} />
             <section
                 className="flex items-center p-16 mt-28 dark:bg-neutral-900 dark:text-neutral-100"
             >
