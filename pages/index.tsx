@@ -152,7 +152,6 @@ export default function Home() {
               </div>
               <p className="font-semibold text-md">Java</p>
             </div>
-            
           </div>
           <div className="w-full p-4 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800/50 hover:bg-neutral-700/50 hover:text-gray-300">
             <div className="flex items-center justify-between w-full">
@@ -197,7 +196,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
       </div>
       <div className="mt-12">
         <p className="inline-flex ml-12 mr-4 text-2xl font-extrabold text-center">
@@ -282,7 +280,7 @@ export default function Home() {
             <p className="inline-flex ml-2 mr-4 text-lg md:ml-12">
               E-Mail:&nbsp;
               <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">
-                OlekAleksander@protonmail.com
+                contact@olekaleksander.pl
               </span>
             </p>
             <br></br>
