@@ -8,14 +8,13 @@ export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <>
-      <div className="relative z-50 bg-neutral-800/50">
+      <div className="relative z-50 text-white bg-neutral-800">
         <div className="px-4 mx-auto max-w-7xl sm:px-6">
           <div className="flex items-center justify-between py-6 duration-300 ease-in-out border-b-2 border-none md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <Link href="/">
-                <span className="sr-only">OlekAleksander</span>
-                <p className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">
-                  OA
+                <p className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r text-[#7F51D4]">
+                  XS
                 </p>
               </Link>
             </div>
@@ -35,20 +34,15 @@ export default function NavBar() {
             <nav className="hidden space-x-10 md:flex">
               <Link
                 href="/"
-                className="text-base font-medium text-white duration-300 bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600 hover:text-transparent"
+                className="text-base font-medium text-white duration-300 bg-clip-text bg-gradient-to-r hover:text-[#7F51D4]"
               >
                 Home
               </Link>
-              {/* <Link
-                                href="/blog/posts"
-                                className="text-base font-medium text-white duration-300 bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600 hover:text-transparent"
-                            >
-                                Blog
-                            </Link> */}
+
               <Link
-                href="https://github.com/OlekAleksander"
+                href="https://github.com/cum-monster"
                 target="_blank"
-                className="text-base font-medium text-white duration-300 bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600 hover:text-transparent"
+                className="text-base font-medium text-white duration-300 bg-clip-text bg-gradient-to-r hover:text-[#7F51D4]"
               >
                 Github
               </Link>
@@ -68,7 +62,7 @@ export default function NavBar() {
               <div className="px-5 pt-5 pb-6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-600">
+                    <p className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r text-[#7F51D4]">
                       OA
                     </p>
                   </div>

@@ -6,8 +6,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-     'display': ['Poppins'],
-     'body': ['Poppins'],
+     'display': ['Ink Free'],
+     'body': ['Ink Free'],
     }
   },
   plugins: [],
