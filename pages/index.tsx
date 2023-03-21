@@ -21,7 +21,7 @@ export default function Home() {
             id="title"
             className="text-5xl font-extrabold text-transparent sm:text-7xl md:text-8xl bg-clip-text bg-gradient-to-r text-[#7F51D4]"
           >
-            XSOMENOOB
+            xsomenoob
           </h1>
           <p className="mt-6 text-xl max-w-[80%] ml-[10%] font-semibold text-center">
             random polish kiddo
