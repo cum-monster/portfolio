@@ -13,8 +13,7 @@ export default function Home() {
     <>
       <NextSeo
         title="XSOMENOOB"
-        description="Im a fullstack programmer from Poland. I build fullstack apps using
-        nextjs and react with tailwind. I also like to design stuff."
+        description="Random polish kiddo"
       />
       <div className="px-3 py-6 mx-auto mt-12 text-center">
         <div>
@@ -31,20 +30,20 @@ export default function Home() {
       </div>
       <div className="mt-12">
         <div className=" max-w-[80%] mr-[10%] mx-auto grid items-center w-full grid-cols-1 gap-4 mt-6 mb-4 md:grid-cols-3">
-          <div className="w-full p-4 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800 hover:bg-neutral-700 hover:text-gray-300">
+          <a href="https://steamcommunity.com/profiles/76561199092873392" className="w-full p-4 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800 hover:bg-neutral-700 hover:text-gray-300">
             <div className="flex items-center justify-between w-full">
               <div className="flex justify-center items-center h-[26px]">
                 <Image
-                  src="/imgs/javascript.svg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/768px-Steam_icon_logo.svg.png"
                   className="rounded-sm"
                   width="24"
                   height="24"
-                  alt="JavaScript"
+                  alt="Steam"
                 />
               </div>
-              <p className="font-semibold text-md">JavaScript</p>
+              <p className="font-semibold text-md">Gamer</p>
             </div>
-          </div>
+          </a>
           <div className="w-full p-4 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800 hover:bg-neutral-700 hover:text-gray-300">
             <div className="flex items-center justify-between w-full">
               <div className="flex justify-center items-center h-[26px]">
@@ -56,23 +55,23 @@ export default function Home() {
                   alt="HTML"
                 />
               </div>
-              <p className="font-semibold text-md">HTML</p>
+              <p className="font-semibold text-md">FrontEnd DEV</p>
             </div>
           </div>
-          <div className="w-full p-4 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800 hover:bg-neutral-700 hover:text-gray-300">
+          <a href="https://www.speedrun.com/user/xsomenoob" className="w-full p-4 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800 hover:bg-neutral-700 hover:text-gray-300">
             <div className="flex items-center justify-between w-full">
               <div className="flex justify-center items-center h-[26px]">
                 <Image
-                  src="/imgs/nodejs.svg"
+                  src="https://avatars.githubusercontent.com/u/11006616?s=280&v=4"
                   className="rounded-sm"
                   width="24"
                   height="24"
-                  alt="NodeJS"
+                  alt="Speedrun.com"
                 />
               </div>
-              <p className="font-semibold text-md">NodeJS</p>
+              <p className="font-semibold text-md">Speedrunner</p>
             </div>
-          </div>
+          </a>
         </div>
 
         <div className="max-w-[80%] mr-[10%] mx-auto mt-12">
