@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="XSOMENOOB"
-        description="Random polish kiddo"
+        title="xsomenoob"
+        description="i would fuck old ladies with electricity"
       />
       <div className="px-3 py-6 mx-auto mt-12 text-center">
         <div>
