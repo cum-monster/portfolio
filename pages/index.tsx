@@ -41,7 +41,7 @@ export default function Home() {
                   alt="Steam"
                 />
               </div>
-              <p className="font-semibold text-md">Gamer</p>
+              <p className="font-semibold text-md">gaming</p>
             </div>
           </a>
           <div className="w-full p-4 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800 hover:bg-neutral-700 hover:text-gray-300">
@@ -55,7 +55,7 @@ export default function Home() {
                   alt="HTML"
                 />
               </div>
-              <p className="font-semibold text-md">FrontEnd DEV</p>
+              <p className="font-semibold text-md">frontend dev</p>
             </div>
           </div>
           <a href="https://www.speedrun.com/user/xsomenoob" className="w-full p-4 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800 hover:bg-neutral-700 hover:text-gray-300">
@@ -69,7 +69,7 @@ export default function Home() {
                   alt="Speedrun.com"
                 />
               </div>
-              <p className="font-semibold text-md">Speedrunner</p>
+              <p className="font-semibold text-md">speedrunner</p>
             </div>
           </a>
         </div>
