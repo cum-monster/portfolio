@@ -14,7 +14,7 @@ export default function NavBar() {
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <Link href="/">
                 <p className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r text-[#7F51D4]">
-                  XS
+                  🥱
                 </p>
               </Link>
             </div>
@@ -63,7 +63,7 @@ export default function NavBar() {
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r text-[#7F51D4]">
-                      OA
+                      
                     </p>
                   </div>
                   <div className="-mr-2">
