@@ -35,7 +35,7 @@ export default function Home() {
             <div className="flex items-center justify-between w-full">
               <div className="flex justify-center items-center h-[26px]">
                 <Image
-                  src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg"
+                  src="steam.png"
                   className="rounded-sm"
                   width="24"
                   height="24"
