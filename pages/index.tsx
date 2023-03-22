@@ -24,7 +24,7 @@ export default function Home() {
             xsomenoob
           </h1>
           <p className="mt-6 text-xl max-w-[80%] ml-[10%] font-semibold text-center">
-            random polish kiddo
+            random polish kidd0
           </p>
         </div>
       </div>
