@@ -63,7 +63,7 @@ export default function NavBar() {
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r text-[#7F51D4]">
-                      
+                      XS
                     </p>
                   </div>
                   <div className="-mr-2">
@@ -99,7 +99,7 @@ export default function NavBar() {
                         onClick={() => {
                           setMobileMenuOpen(false);
                         }}
-                        href="https://github.com/OlekAleksander"
+                        href="https://github.com/cum-monster"
                         target="_blank"
                         className="w-full h-full"
                       >
