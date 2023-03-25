@@ -47,7 +47,6 @@ export default function Home() {
           <div className="w-full p-4 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800 hover:bg-neutral-700 hover:text-gray-300">
             <div className="flex items-center justify-between w-full">
               <div className="flex justify-center items-center h-[26px]">
-                <HtmlLogo />
               </div>
               <p className="font-semibold text-md">frontend dev</p>
             </div>
