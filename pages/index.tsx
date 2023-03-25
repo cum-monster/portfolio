@@ -24,7 +24,7 @@ export default function Home() {
             xsomenoob
           </h1>
           <p className="mt-6 text-xl max-w-[80%] ml-[10%] font-semibold text-center">
-            random polish kidd0
+            random polish kiddo
           </p>
         </div>
       </div>
@@ -33,13 +33,6 @@ export default function Home() {
           <a href="https://steamcommunity.com/profiles/76561199092873392" className="w-full p-4 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800 hover:bg-neutral-700 hover:text-gray-300">
             <div className="flex items-center justify-between w-full">
               <div className="flex justify-center items-center h-[26px]">
-                <Image
-                  src="steam.png"
-                  className="rounded-sm"
-                  width="24"
-                  height="24"
-                  alt="Steam"
-                />
               </div>
               <p className="font-semibold text-md">gaming</p>
             </div>
@@ -48,19 +41,12 @@ export default function Home() {
             <div className="flex items-center justify-between w-full">
               <div className="flex justify-center items-center h-[26px]">
               </div>
-              <p className="font-semibold text-md">frontend dev</p>
+              <p className="font-semibold text-md">fullstack dev</p>
             </div>
           </div>
           <a href="https://www.speedrun.com/user/xsomenoob" className="w-full p-4 text-white transition-all duration-200 rounded-lg shadow-lg bg-neutral-800 hover:bg-neutral-700 hover:text-gray-300">
             <div className="flex items-center justify-between w-full">
               <div className="flex justify-center items-center h-[26px]">
-                <Image
-                  src="https://avatars.githubusercontent.com/u/11006616?s=280&v=4"
-                  className="rounded-sm"
-                  width="24"
-                  height="24"
-                  alt="Speedrun.com"
-                />
               </div>
               <p className="font-semibold text-md">speedrunner</p>
             </div>
